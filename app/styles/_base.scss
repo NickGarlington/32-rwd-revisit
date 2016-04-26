@@ -1,0 +1,36 @@
+body {
+  font-family: Helvetica;
+  background-image: url("../assets/images/background.jpg");
+  margin: 10px auto;
+  padding: 10px;
+  @media screen and(min-width: 650px){
+    padding: 20px;
+  }
+  @media screen and(min-width: 1024px){
+    width: 1024px;
+  }
+}
+a{
+  text-decoration: none;
+}
+main{
+  overflow: hidden;
+  zoom: 1;
+}
+
+.container{
+  margin: auto 15px;
+  overflow: hidden;
+  zoom: 1;
+  @media screen and(min-width: 650px){
+    margin: auto 30px;
+  }
+  // / width: 100%;
+}
+.copyright{
+  color: #C6CCCC;
+  font-size: .7rem;
+  @media screen and(min-width: 650px){
+
+  }
+}
